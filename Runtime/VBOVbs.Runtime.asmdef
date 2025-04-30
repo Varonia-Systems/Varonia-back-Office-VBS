@@ -1,0 +1,19 @@
+{
+    "name": "VBOVbs.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "VboBase.Runtime",
+        "NaughtyAttributes.Core",
+        "SteamVR",
+        "Unity.XR.OpenVR"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
