@@ -5,7 +5,8 @@
         "VboBase.Runtime",
         "NaughtyAttributes.Core",
         "SteamVR",
-        "Unity.XR.OpenVR"
+        "Unity.XR.OpenVR",
+        "VBOInput.Runtime"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

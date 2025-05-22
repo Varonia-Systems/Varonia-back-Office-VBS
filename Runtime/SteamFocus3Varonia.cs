@@ -338,12 +338,12 @@ public class SteamFocus3Varonia : MonoBehaviour
         {
             if (!Right_Wrist_Ready && !Left_Wrist_Ready && HelmetState == HelmetState.Ok)
             {
-                VaroniaGlobal.VG.OnWeaponFail.Invoke();
+                VaroniaInput.Instance.OnWeaponFail.Invoke();
 
             }
             else
             {
-                VaroniaGlobal.VG.OnWeaponOk.Invoke();
+                VaroniaInput.Instance.OnWeaponOk.Invoke();
             }
         }
         #endif
@@ -475,14 +475,14 @@ public class SteamFocus3Varonia : MonoBehaviour
                     if (Wrist_r.Trakingstate == TrackingState.Ok || Wrist_l.Trakingstate == TrackingState.Ok)
                     {
                         if (WristState == TrackingState.Lost)
-                            VaroniaGlobal.VG.OnWeaponHasTracking.Invoke();
+                        VaroniaInput.Instance.OnWeaponHasTracking.Invoke();
 
                         WristState = TrackingState.Ok;
                     }
                     else
                     {
                         if (WristState == TrackingState.Ok)
-                            VaroniaGlobal.VG.OnWeaponLostTracking.Invoke();
+                        VaroniaInput.Instance.OnWeaponLostTracking.Invoke();
 
                         WristState = TrackingState.Lost;
                     }
