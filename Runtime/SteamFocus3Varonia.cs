@@ -676,7 +676,7 @@ public class SteamFocus3Varonia : MonoBehaviour
 
     IEnumerator Start()
     {
-        DontDestroyOnLoad(this);
+      
 
         Instance = this;
 
