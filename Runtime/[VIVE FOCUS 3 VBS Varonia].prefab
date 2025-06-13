@@ -244,7 +244,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7637385802476576989}
   - component: {fileID: 971099053}
-  - component: {fileID: 9010882781844637504}
+  - component: {fileID: 2480942951598780825}
   m_Layer: 5
   m_Name: '[VIVE FOCUS 3 VBS Varonia]'
   m_TagString: Untagged
@@ -309,7 +309,7 @@ MonoBehaviour:
   NoGyro: 0
   VBS_PC_Version: 
   VBS_APK_Version: 
---- !u!114 &9010882781844637504
+--- !u!114 &2480942951598780825
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -318,7 +318,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3561358085934394405}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b70b11959bbfb9147ad4784ae44555ad, type: 3}
+  m_Script: {fileID: 11500000, guid: bd3c2018faa8dd04cae85df00c33e6fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &3903052916173457611
