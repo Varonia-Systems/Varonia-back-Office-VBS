@@ -507,7 +507,7 @@ public class SteamFocus3Varonia : MonoBehaviour
         while (true)
         {
             Fps.text = "";
-            switch (FPS.S_Fps)
+            switch ( FpsUtility.GetCurrentFps())
             {
                 case int n when n >= 70:
                     Fps_.Add("▄");
